@@ -2,7 +2,7 @@
 setInterval(Timer,1000);
 Timer();
 let Surprise = () => {
-    document.write('<img style="width:40%;height:auto;margin-left:30%;" src="https://download.zoho.com.cn/v1/workdrive/download/jy075b48ba6ff5ce14543a742f4b2d43776f1?x-cli-msg=%7B%22isFileOwner%22%3Atrue%2C%22version%22%3A%221.0%22%7D"></img>');
+    document.write('<img style="width:40%;height:auto;margin-left:30%;" src=""></img>');
     alert(a);
 }
 function Timer(){

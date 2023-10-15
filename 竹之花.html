@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta setchar="utf-8">
+        <title>MLS的小站</title>
+        <link rel="stylesheet" type="text/css" href="./set.css">
+        <link rel="stylesheet" href="./APlayer.min.css">
+        <script src="./jquery-3.4.1.js"></script>
+        <script src="./jquery.pjax.js"></script>
+        <script src="./APlayer.min.js"></script>
+    </head>
+    <body class="demo">
+        
+        <div id="aplayer"></div>
+        <script>
+        const ap = new APlayer({
+            container:document.getElementById('aplayer'),
+            fixed:true,
+            lrcType:3,
+            theme:'#41b1c0',
+            audio:[{
+                name:'tief=blau',
+                artist:'Foxtail-Grass Studio',
+                url:'https://download.zoho.com.cn/v1/workdrive/download/jy07541dab4c2a06e445c97dd07585d586c46?x-cli-msg=%7B%22isFileOwner%22%3Atrue%2C%22version%22%3A%221.0%22%7D',
+                cover:'./pictures/monocolotion.jpg',
+            },]
+        });
+        </script>
+
+        <div id="pageContent">
+            <div class="Side">
+                <b class="Title">纯音乐</b><br/>
+                <p>
+                    <a class="Link" href="./Insert Coin(s).html"><b>Insert Coin(s)</b></a><br/>
+                    <a class="Link" href="./未だ知られぬ物語 ～ Anticipated Dream.html"><b>未だ知られぬ物語 ～ Anticipated Dream</b></a><br/>
+                    <a class="Link" href="./狐の工作室 - 百鬼夏祭.html"><b>百鬼夏祭</b></a><br/>
+                    <a class="Link" href="./Foxtail-Grass Studio - 神意の在り処は人の輪に.html"><b>神意の在り処は人の輪に</b></a><br/>
+                    <a class="Link" href="./Foxtail-Grass Studio - tief=blau.html" ><b>tief=blau</b></a><br/>
+                    <a class="Link" href="./Foxtail-Grass Studio - 秋鳴りシンフォニー.html" ><b>秋鳴りシンフォニー</b></a><br/>
+                </p>
+                <b class="Title">人声</b><br/>
+                <p>
+                    <a class="Link" href="./幻想少女物语.html"><b>幻想少女物语</b></a><br/>
+                    <a class="Link"  href="./めらみぽっぷ - 落日ロマンス.html" ><b>落日ロマンス</b></a><br/>
+                    <a class="Link" href="./竹之花-music.html"><b>竹ノ花</b></a><br/>
+                </p>
+                <b class="Title">漫画</b><br/>
+                <p>
+                    <a class="Link" style="background-color: #41b1c0;color:white;" href="#"><b>竹之花</b></a><br/>
+                </p>
+                <b class="Title">同人游戏</b><br/>
+                <p>
+                </p>
+                <b class="Title">小说</b><br/>
+            </div>
+    
+            <div class="Top">
+                <b id="clock"></b>
+    
+                <script src="../Main.js"></script>
+    
+                <b class="Big-Title" style="float: left;margin-left:15px;margin-top:8px;color:white;font-size:50px;">竹之花</b>
+                <a style="float:right;color:whitesmoke;font-size: 20px;margin-top: 45px;margin-right:-14%;text-decoration: none;" href="./index.html"><b>主页</b></a>
+            </div>
+            
+            <div class="Side-R">
+                
+                <div style="margin-top: -30px;">
+                    <p class="Middle" style="line-height: 200%;margin-left:0.4%;">
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            $(document).pjax('a[target!=_blank]', '#pageContent', {fragment:'#pageContent', timeout:8000})
+        </script>
+    </body>
+</html>

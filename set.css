@@ -1,0 +1,153 @@
+            .lrc{
+                color: #41b1c0;
+                float:top;
+	            margin-top:-2px;
+                line-height: 90%;
+            }
+            .aplayer .aplayer-lrc p.aplayer-lrc-current {
+                /* 大小 */
+                font-size: 17px;
+                /* 颜色 */
+                color: #41b1c0;
+                opacity: 1;
+                overflow: visible;
+                height: auto !important;
+                min-height: 16px;
+            }
+            .Pic{
+                border: #41b1c0;
+                border-style: solid;
+                border-width: 3px;
+            }
+            .demo {
+                overflow: hidden;
+              }
+            .Title{font-size: 35px;color:#59b9c6;}
+            .Big-Title{
+                float: left;
+                margin-left:15px;
+                margin-top:8px;
+                color:white;
+                font-size:50px;
+            }
+            .Link:hover{
+                background-color: #c3f8ff;
+            }
+            .Link{
+                background-color:white;
+                color: #41b1c0;
+                text-align: left;
+                font-size: 15px;
+                line-height:120%;
+                text-decoration:none;
+                transition:background-color 0.5s;
+	            -webkit-transition:background-color 0.5s; /* Safari */
+            }
+            #clock{
+                float:right;
+                color:white;
+                background-color: #41b1c0;
+                text-align: right;
+                font-size: 20px;
+                line-height:120%;
+                margin-top: 10px;margin-right: 1%;
+            }
+            body{background-color: whitesmoke;}
+            .Side{
+                background: whitesmoke;
+                color: #41b1c0;
+                padding: 15px;
+                width: 10%;
+                height: 873px;
+                overflow: scroll;
+                border: 1px solid #ccc;
+                float:left;float:top;
+                margin-top: -8px;margin-left: -0.45%;
+                margin-right: -0.18%;
+            }
+            .Side a{
+                display: inline-block;
+                background-color: whitesmoke;
+	            float:top;
+	            margin-top:10px;
+            }
+            .Side-R{
+                background: whitesmoke;
+                color: #41b1c0;
+                padding: 15px;
+                width: 87.5%;
+                height: 791px;
+                border: none;
+                overflow: scroll;
+                scrollbar-width:0px;
+                float:right;
+                margin-top: -8px;
+                margin-right: -0.4%;
+                overflow-x: hidden;
+                scrollbar-width: none; /* firefox */
+                -ms-overflow-style: none; /* IE 10+ */
+                border: 1px solid #ccc;
+            }
+            .Top{
+                display: inline-block;
+                background-color: #41b1c0;
+                width: 89.2%;
+                height: 90px;
+                float:right;float:top;
+                margin-top: -8px;padding: 0;
+                margin-right: -0.45%;margin-left: -4%;
+            }
+            .Top div{
+                margin-top: 90px;
+            }
+            .Button{
+                text-decoration: none;
+            }
+            .Middle{
+                color: #41b1c0;
+                text-align: left;
+                font-size: 25px;
+                line-height:120%;
+                text-decoration:none;
+                margin-left: 1.2%;
+            }
+            .Content{
+                color: #41b1c0;
+                line-height:120%;
+                font-size: 25px;
+                float: right;
+                margin-right: 9%;
+                margin-top: 40px;
+                width: 50%;
+            }
+            .Big{
+                color: #41b1c0;
+                text-align: left;
+                font-size: 30px;
+                line-height:120%;
+                text-decoration:none;
+                margin-left: 1.2%;
+            }
+	        .Secret{
+		        display: inline-block;
+		        text-align: left;
+		        color: #41b1c0;
+		        background-color: #41b1c0;
+		        transition:color 0.5s;
+	                -webkit-transition:color 0.5s; /* Safari */
+	        }
+	        .Secret:hover{
+                color: white;
+            }
+            .Secret-F{
+                display: inline-block;
+                text-align: left;
+                color: whitesmoke;
+                background-color: whitesmoke;
+                transition:color 0.5s;
+                    -webkit-transition:color 0.5s; /* Safari */
+            }
+            .Secret-F:hover{
+                color: #41b1c0;
+            }
+            .Na{}

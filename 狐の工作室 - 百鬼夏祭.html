@@ -5,8 +5,8 @@
         <title>MLS的小站</title>
         <link rel="stylesheet" type="text/css" href="./set.css">
         <link rel="stylesheet" href="./APlayer.min.css">
-        <script src="jquery-3.4.1.js"></script>
-        <script src="jquery.pjax.js"></script>
+        <script src="./jquery-3.4.1.js"></script>
+        <script src="./jquery.pjax.js"></script>
         <script src="./APlayer.min.js"></script>
     </head>
     <body class="demo">
@@ -19,40 +19,44 @@
             lrcType:3,
             theme:'#41b1c0',
             audio:[{
-                name:'tief=blau',
-                artist:'Foxtail-Grass Studio',
-                url:'http://attachment.0sm.com/node0/2023/10/8652B7CFD9F246D5-2e15ffee376f2eb6.mp3',
-                cover:'http://f0.0sm.com/node0/2023/10/8652B7B3ED6316CE-bf0a72e550ce3cc7.jpg',
+                name:'竹ノ花',
+                artist:'凋叶棕-めらみぽっぷ',
+                url:'./music/めらみぽっぷ - 竹ノ花.mp3',
+                cover:'./pictures/薦.jpg',
+                lrc:'./music/竹ノ花 - めらみぽっぷ.lrc'
             },]
         });
         </script>
 
-        <div id="pageContent">
+        <div id="pageContent" style="width: 100%;">
+
             <div class="Side">
-                <b class="Title">纯音乐</b><br/>
-                <p>
-                    <a class="Link" href="./Insert Coin(s).html"><b>Insert Coin(s)</b></a><br/>
-                    <a class="Link" href="./未だ知られぬ物語 ～ Anticipated Dream.html"><b>未だ知られぬ物語 ～ Anticipated Dream</b></a><br/>
-                    <a class="Link" style="background-color: #41b1c0;color:white;" href="#"><b>百鬼夏祭</b></a><br/>
-                    <a class="Link" href="./Foxtail-Grass Studio - 神意の在り処は人の輪に.html"><b>神意の在り処は人の輪に</b></a><br/>
-                    <a class="Link" href="./Foxtail-Grass Studio - tief=blau.html" ><b>tief=blau</b></a><br/>
-                    <a class="Link" href="./Foxtail-Grass Studio - 秋鳴りシンフォニー.html" ><b>秋鳴りシンフォニー</b></a><br/>
-                </p>
-                <b class="Title">人声</b><br/>
-                <p>
-                    <a class="Link" href="./幻想少女物语.html"><b>幻想少女物语</b></a><br/>
-                    <a class="Link"  href="./めらみぽっぷ - 落日ロマンス.html" ><b>落日ロマンス</b></a><br/>
-                    <a class="Link" href="./竹之花-music.html"><b>竹ノ花</b></a><br/>
-		    <a class="Link" href="./RAINMAKER.html"><b>RAINMAKER</b></a><br/>
-                </p>
-                <b class="Title">漫画</b><br/>
-                <p>
-                    <a class="Link" href="./竹之花.html"><b>竹之花</b></a><br/>
-                </p>
-                <b class="Title">同人游戏</b><br/>
-                <p>
-                </p>
-                <b class="Title">小说</b><br/>
+                <div style="margin-left: 5%;">
+                    <b class="Title">纯音乐</b><br/>
+                    <p>
+                        <a class="Link" href="./Insert Coin(s).html"><b>Insert Coin(s)</b></a><br/>
+                        <a class="Link" href="./未だ知られぬ物語 ～ Anticipated Dream.html"><b>未だ知られぬ物語 ～ <br/>Anticipated Dream</b></a><br/>
+                        <a class="Link" style="background-color: #41b1c0;color:white;" href="#"><b>百鬼夏祭</b></a><br/>
+                        <a class="Link" href="./Foxtail-Grass Studio - 神意の在り処は人の輪に.html"><b>神意の在り処は人の輪に</b></a><br/>
+                        <a class="Link" href="./Foxtail-Grass Studio - tief=blau.html" ><b>tief=blau</b></a><br/>
+                        <a class="Link" href="./Foxtail-Grass Studio - 秋鳴りシンフォニー.html" ><b>秋鳴りシンフォニー</b></a><br/>
+                    </p>
+                    <b class="Title">人声</b><br/>
+                    <p>
+                        <a class="Link" href="./幻想少女物语.html"><b>幻想少女物语</b></a><br/>
+                        <a class="Link" href="./めらみぽっぷ - 落日ロマンス.html" ><b>落日ロマンス</b></a><br/>
+                        <a class="Link" href="./竹之花-music.html"><b>竹ノ花</b></a><br/>
+                        <a class="Link" href="./RAINMAKER.html"><b>RAINMAKER</b></a><br/>
+                    </p>
+                    <b class="Title">漫画</b><br/>
+                    <p>
+                        <a class="Link" href="./竹之花.html"><b>竹之花</b></a><br/>
+                    </p>
+                    <b class="Title">同人游戏</b><br/>
+                    <p>
+                    </p>
+                    <b class="Title">小说</b><br/>
+                </div>
             </div>
     
             <div class="Top">
@@ -60,28 +64,39 @@
     
                 <script src="./Main.js"></script>
     
-                <b class="Big-Title" style="float: left;margin-left:15px;margin-top:8px;color:white;font-size:50px;">百鬼夏祭</b>
-                <a style="float:right;color:whitesmoke;font-size: 20px;margin-top: 45px;margin-right:-14%;text-decoration: none;" href="./index.html"><b>主页</b></a>
+                <a href="#" style="color:#41b1c0;"><b class="Big-Title" style="position: absolute;left:0px;">百鬼夏祭</b></a>
+                <a style="font-size: 20px;color:whitesmoke;position: absolute;top:50px;right:20px;text-decoration: none;" href="./index.html"><b>主页</b></a>
             </div>
             
             <div class="Side-R">
-                <div style="margin-top: -30px;">
+                <div style="margin-top: -15px;margin-left: 10px;">
+
+                    <p class="Content">
+                        
+                    </p>
 
                     <p class="Middle" style="line-height: 200%;margin-left:0.4%;">
-                        <b class="Big" style="float:left;margin-left: -0.3%;">作者:狐の工作室</b>
+                        <b class="Big" style="float:left;margin-left: -0.3%;">作者:百鬼夏祭</b>
 		                <br/>
                         <b class="Big" style="float:left;margin-left: -0.3%;">专辑:夏風の音</b><img style="float:left;margin-left:5%;margin-top:-35px;" src="">
                         <br/>
-                        <b class="Big" style="float:left;margin-left: -0.3%;text-decoration: underline;" onclick="AddAduio('百鬼夏祭','狐の工作室','http://attachment.0sm.com/node0/2023/10/8652B802C074AC07-2185f37d6e183b13.mp3','http://f0.0sm.com/node0/2023/10/8652B82AA294F35B-cc6a03751042ce73.jpg')"><a href="#" style="color:#41b1c0;">▶ 百鬼夏祭</a></b>
+                        <b class="Big" style="float:left;margin-left: -0.3%;text-decoration: underline;" onclick="AddAduio('百鬼夏祭','狐の工作室','./music/狐の工作室 - 百鬼夏祭.mp3','./pictures/夏風の音.jpg')"><a href="#" style="color:#41b1c0;">▶ 百鬼夏祭</a></b>
                         <br/>
-                        <img class="Pic" style="margin-left: -5px;width: 500px;height:auto;" src="http://f0.0sm.com/node0/2023/10/8652B82AA294F35B-cc6a03751042ce73.jpg"></img>
+                        <img class="Pic" style="margin-left: -5px;margin-bottom: -20px;width:30%;" src="./pictures/夏風の音.jpg"></img>
+                        <br/>
                     </p>
+                    
+                    
                 </div>
             </div>
         </div>
 
+
+
         <script>
             $(document).pjax('a[target!=_blank]', '#pageContent', {fragment:'#pageContent', timeout:100000})
         </script>
+
     </body>
 </html>
+

@@ -1,8 +1,22 @@
+html{font-size: 25px;}
+            @media(max-width:1400px){
+                html{font-size: 20px;}
+            }
+            @media(max-width:900px){
+                html{font-size: 15px;}
+            }
             .lrc{
                 color: #41b1c0;
                 float:top;
-	            margin-top:-2px;
+	            margin-top:-1%;
                 line-height: 90%;
+                font-size: 1rem;
+            }
+            .lrc i{
+                font-size: 0.7rem;
+            }
+            .aplayer{
+                font-size: 20px;
             }
             .aplayer .aplayer-lrc p.aplayer-lrc-current {
                 /* 大小 */
@@ -20,15 +34,16 @@
                 border-width: 3px;
             }
             .demo {
-                overflow: hidden;
+                overflow:hidden;
               }
-            .Title{font-size: 35px;color:#59b9c6;}
+            .Title{font-size: 1.4rem;color:#41b1c0;}
             .Big-Title{
                 float: left;
                 margin-left:15px;
                 margin-top:8px;
                 color:white;
                 font-size:50px;
+                
             }
             .Link:hover{
                 background-color: #c3f8ff;
@@ -37,7 +52,7 @@
                 background-color:white;
                 color: #41b1c0;
                 text-align: left;
-                font-size: 15px;
+                font-size: 0.6rem;
                 line-height:120%;
                 text-decoration:none;
                 transition:background-color 0.5s;
@@ -56,14 +71,13 @@
             .Side{
                 background: whitesmoke;
                 color: #41b1c0;
-                padding: 15px;
-                width: 10%;
-                height: 873px;
-                overflow: scroll;
+                width: 14%;
+                height: auto;
+                overflow: scroll;overflow-x: hidden;
                 border: 1px solid #ccc;
-                float:left;float:top;
-                margin-top: -8px;margin-left: -0.45%;
-                margin-right: -0.18%;
+                position: absolute;
+                left:0px;right:88.7%;top:0px;
+                bottom:70px;
             }
             .Side a{
                 display: inline-block;
@@ -74,28 +88,27 @@
             .Side-R{
                 background: whitesmoke;
                 color: #41b1c0;
-                padding: 15px;
-                width: 87.5%;
-                height: 791px;
+                padding: 0px;
+                width: 88.7%;
+                height: auto;
                 border: none;
-                overflow: scroll;
+                overflow-y:auto;
                 scrollbar-width:0px;
-                float:right;
-                margin-top: -8px;
-                margin-right: -0.4%;
                 overflow-x: hidden;
                 scrollbar-width: none; /* firefox */
                 -ms-overflow-style: none; /* IE 10+ */
                 border: 1px solid #ccc;
+                position:absolute;
+                right:-24px;top:90px;left:12.8%;
+                bottom: 70px;
             }
             .Top{
-                display: inline-block;
+                display: block;
                 background-color: #41b1c0;
-                width: 89.2%;
-                height: 90px;
-                float:right;float:top;
-                margin-top: -8px;padding: 0;
-                margin-right: -0.45%;margin-left: -4%;
+                width: 87.2%;top:0%;right:0px;
+                height: 90px;left:12.8%;
+                padding: 0%;
+                position:absolute;
             }
             .Top div{
                 margin-top: 90px;
@@ -106,7 +119,7 @@
             .Middle{
                 color: #41b1c0;
                 text-align: left;
-                font-size: 25px;
+                font-size: 1rem;
                 line-height:120%;
                 text-decoration:none;
                 margin-left: 1.2%;
@@ -114,7 +127,7 @@
             .Content{
                 color: #41b1c0;
                 line-height:120%;
-                font-size: 25px;
+                font-size: 1rem;
                 float: right;
                 margin-right: 9%;
                 margin-top: 40px;
@@ -123,7 +136,7 @@
             .Big{
                 color: #41b1c0;
                 text-align: left;
-                font-size: 30px;
+                font-size: 1.2rem;
                 line-height:120%;
                 text-decoration:none;
                 margin-left: 1.2%;
@@ -150,4 +163,3 @@
             .Secret-F:hover{
                 color: #41b1c0;
             }
-            .Na{}

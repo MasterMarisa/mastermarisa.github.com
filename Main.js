@@ -1,8 +1,5 @@
-﻿Timer();
-setInterval(Timer,1000);
-Timer();
 let Surprise = () => {
-    document.write('<img style="width:40%;height:auto;margin-left:30%;" src=""></img>');
+    document.write('<img style="width:40%;height:auto;margin-left:30%;" src="./pictures/恶心丸.gif"></img>');
     alert(a);
 }
 function Timer(){
@@ -20,4 +17,3 @@ function AddAduio(Name,Artist,Url,Cover,Lrc="none"){
         lrc:Lrc
     },]);
 }
-

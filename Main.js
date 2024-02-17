@@ -1,8 +1,3 @@
-let Surprise = () => {
-    document.write('<img style="width:40%;height:auto;margin-left:30%;" src="./pictures/恶心丸.gif"></img>');
-    alert(a);
-}
-
 function Timer(){
     let i = Date();
     i = i.slice(0,i.indexOf("+")-3);
@@ -20,16 +15,13 @@ function AddAudio(Name,Artist,Url,Cover,Lrc="none"){
     },]);
 }
 
-
-
 let flag = true;
 let wroking = false;
-
 let Move = ()=>{
     if(!wroking){
         if(flag){
             document.getElementById("MLS").style.zIndex = "-2";
-            document.getElementById("MLS").style.marginTop = "-400px";
+            document.getElementById("MLS").style.marginTop = "-450px";
             document.getElementById("Arrow").style.transform = "rotate(0deg)";
         }
         else{
@@ -42,3 +34,8 @@ let Move = ()=>{
         flag =! flag;
     }
 }
+
+$(document).ready(function(){
+    $("#SideBar").load("./SideBar.html");
+    $("#Latest").load("./Latest.html");
+});

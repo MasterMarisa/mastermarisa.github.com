@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta setchar="utf-8">
+        <title>MLS的小站</title>
+        <link rel="stylesheet" type="text/css" href="./set.css">
+        <link rel="stylesheet" href="./APlayer.min.css">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <script src="./jquery-3.4.1.js"></script>
+        <script src="./jquery.pjax.js"></script>
+        <script src="./APlayer.min.js"></script>
+        <script src="./Main.js"></script>
+    </head>
+    <body>
+
+
+        <div id="aplayer"></div>
+        <script>
+        const ap = new APlayer({
+            container:document.getElementById('aplayer'),
+            fixed:true,
+            lrcType:3,
+            theme:'#41b1c0',
+        });
+        </script>
+
+        <div id="SideBar">
+                
+        </div>
+
+
+        <div>
+            <div style="width: 100%;height: 100%;overflow: scroll;position: absolute;">
+
+                <div id="pageContent" class="C-Card" style="width: 750px;height: 480px;position:absolute;left: calc(200px + 2%);top:10px;right: calc(33% + 50px);">
+                    <b style="color: #41b1c0;font-size: 30px;margin-left: 5px;top: 1px;position: relative;">Lost my Lover</b>
+                    <b style="color: #41b1c0;position: relative;top: -12px;">Inst-06</b>
+                    <a style="color: #41b1c0;position: relative;top: 4px;left: -55px;font-size: 13px;">—流派未確定</a>
+                    <img class="Pic" src="https://ffsup-s42.oduuu.com/uploads%2F2675%2F2024%2F02%2Fforget-me-not.jpg?Expires=1708138315" style="height: 320px;position: absolute;left: -2px;top:45px;"></img>
+                    <div style="color: #41b1c0;font-size: 20px;margin-left: 5px;top:-8px;position: absolute;left: 2px;top:365px;">▷▷▷<i>「forget-me-not」</i></div>
+                    <div style="color: #41b1c0;font-size: 17px;margin-left: 5px;top:-8px;position: absolute;left: 2px;top:395px;line-height: 15px;"><b>原曲:</b>
+                        <a href="https://thwiki.cc/U.N.OWEN%E5%B0%B1%E6%98%AF%E5%A5%B9%E5%90%97%EF%BC%9F" target="_blank" style="color: #41b1c0;"><i>U.N.OWEN就是她吗？</a></i>
+                        <br/><i style="font-size: 13px;">&emsp;&emsp;&emsp;&ensp;<a href="https://thwiki.cc/%E4%B8%9C%E6%96%B9%E7%BA%A2%E9%AD%94%E4%B9%A1" target="_blank" style="color: #41b1c0;text-decoration: none;">《东方红魔乡》</a>EX面BOSS芙兰的主题曲</i>
+                    </div>
+                    <div style="color: #41b1c0;font-size: 17px;margin-left: 5px;top:-8px;position: absolute;left: 2px;top:428px;">
+                        <button onclick="AddAudio('Lost my Lover','流派未確定','https://music.163.com/song/media/outer/url?id=774274.mp3','https://ffsup-s42.oduuu.com/uploads%2F2675%2F2024%2F02%2Fforget-me-not.jpg?Expires=1708138315');" style="background: none;color: #41b1c0;border: none;">&emsp;<b>▷听♫</b></button>
+                        &emsp;&emsp;<a href="https://wwu.lanzouq.com/iAqOQ1ohxjgb" target="_blank" style="color: #41b1c0;text-decoration: none;"><b>↓下载「高解析度」<b style="font-size: 10px;">密码:a6x8</b></b></a>
+                    </div>
+                    <div style="color: #41b1c0;font-size: 15px;margin-left: 5px;top:-8px;position: absolute;left: 2px;top: 448px;"><b style="font-size: 20px;">*</b>1. 好凄美的曲子......小提琴的情感丰富至极。</div>
+                </div>
+
+                <div id="Latest">
+                    
+                </div>
+
+            </div>
+        </div>
+        
+        <div id="clock" style="font-size: 25px;color: #41b1c0;right: 0px;bottom:0;position:absolute;"></div>
+        
+        <script>
+            Timer();
+            setInterval(Timer,1000);
+        </script>
+
+        <script>
+            $(document).pjax('a[target!=_blank]', '#pageContent', {fragment:'#pageContent', timeout:100000});
+        </script>
+
+    </body>
+</html> 
